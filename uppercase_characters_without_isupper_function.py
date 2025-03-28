@@ -3,13 +3,13 @@
 text = input("Enter text: ")
 
 #Initial value
-all_upper = True 
+upper_case_state = True 
 
 #Check if theres any lowercase characters
-for char in text:
-    if 'a' <= char <= 'z':  
-        all_upper = False
+for character in text:
+    if 'a' <= character <= 'z':  
+        upper_case_state = False
         break
 
 #Print True if all characters are uppercase
-print("Are all characters uppercase:", all_upper)
+print("Are all characters uppercase:", upper_case_state)
