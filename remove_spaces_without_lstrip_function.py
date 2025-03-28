@@ -3,7 +3,8 @@
 input_text = input("Enter text: ")
 
 #Split the text and use the first split and remove the leading spaces there
+#Set the value to 0 so it can use the first split
 index = input_text.find(text.split()[0])
-result = input_text[index:]
+modified_text = input_text[index:]
 
-print("Without leading spaces:", result)
+print("Without leading spaces:", modified_text)
