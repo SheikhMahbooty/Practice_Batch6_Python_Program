@@ -6,9 +6,9 @@ width = int(input("Enter desired width: "))
 #Enter width: 10
 spaces_to_add = width - len(text)
 if spaces_to_add > 0:
-    result = text + (" " * spaces_to_add)
+    space_added_text = text + (" " * spaces_to_add)
 else:
-    result = text
+    space_added_text = text
 
 #Print 'i love radiohead     '
-print(f"Result: '{result}'")
+print(f"Result: '{space_added_text}'")
