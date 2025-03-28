@@ -3,17 +3,17 @@
 #input text "I LOVE RADIOHEAD"
 text = input("Enter text: ")
 
-words = text.split()
+split_words = text.split()
 result = []
 
 #like in program 1, use split to split the words and capitalize the first letter and lower the others
-for word in words:
+for word in split_words:
     if word:
         new_word = word[0].upper() + word[1:].lower()
         result.append(new_word)
 
-final = " ".join(result)
+title_case_text = " ".join(result)
 
 #print "I Love Radiohead"
-print("Title case:", final)
+print("Title case:", title_case_text)
 
