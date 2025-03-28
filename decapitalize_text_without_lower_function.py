@@ -8,7 +8,7 @@ uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowercase = "abcdefghijklmnopqrstuvwxyz"
 
 #Transform characters to lowercase
-result = text.translate(str.maketrans(uppercase, lowercase))
+decapitalized_text = text.translate(str.maketrans(uppercase, lowercase))
 
 #Print result "i love radiohead"
-print("Lowercase:", result)
+print("Lowercase:", decapitalized_text)
