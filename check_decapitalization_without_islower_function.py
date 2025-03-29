@@ -3,15 +3,15 @@
 input_text = input("Enter text: ")
 uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-all_lower = True
+lowercase_value = True
 
 #check text if characters are lowercase
 for char in input_text:
     if char in uppercase:
-        all_lower = False
+        lowercase_value = False
         break
 
 #print "I LOVE RADIOHEAD"
-print(all_lower)
+print(lowercase_value)
 
 
