@@ -1,10 +1,10 @@
 #Prog05. startswith() check if the string beginning part matches the function parameter. Create a program that do the same functionality without using startswith() function.
 #input text "radio head"
-text = input("Enter text: ")
-prefix = input("Enter prefix: ") #input prefix "radio"
+input_text = input("Enter text: ")
+input_prefix = input("Enter prefix: ") #input prefix "radio"
 
 #check if inputted prefix matches the text
-matches = text[:len(prefix)] == prefix
+prefix_match = input_text[:len(input_prefix)] == input_prefix
 
 #print "true"
-print(matches)
+print(prefix_match)
